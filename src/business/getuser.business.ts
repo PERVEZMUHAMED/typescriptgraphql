@@ -5,7 +5,7 @@ import { TYPES } from "../di/TYPES";
 import userModel from "../Model/user.model";
 import GetUserRepository from "../repository/getuser.repository";
 import { IGetUserBusiness } from "./Interface/getuser.business.repository.interface";
-let ObjectId = Types.ObjectId;
+let ObjectId = Types.ObjectId
 
 @injectable()
 class GetUserBusiness implements IGetUserBusiness {
